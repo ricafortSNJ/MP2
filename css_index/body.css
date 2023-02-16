@@ -107,3 +107,7 @@ body {
     letter-spacing: .05em;
     line-height: 1.6em;
 }
+
+footer {
+    background-color: #ccc8c2;
+}
