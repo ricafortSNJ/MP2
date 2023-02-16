@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #e2ddd6;
+    background-attachment: fixed;
+}
+
+
+#navwithlogo {
+    background-color: rgb(212, 202, 202);
+
+}
+
+#homepage :hover {
+    color: #000000;
+
+}
+
+.dropbtn {
+    background-color: rgb(143, 177, 240);
+    border: 1px solid;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(143, 177, 240);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(143, 177, 240);
+}
+
+.btn {
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+#carousel {
+
+    align-items: center;
+
+}
+
+.DeptCallOut {
+    border: 1px dashed #e74c3c;
+    border-radius: 3px;
+    padding: 10px 3px 5px 3px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: .05em;
+    line-height: 1.6em;
+}
+
+.DeptSubText {
+    font-size: 11px;
+    font-style: italic;
+    text-align: center !important;
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.DeptCallOut2 {
+    border: 1px dashed #5c4d4c;
+    border-radius: 3px;
+    padding: 10px 3px 5px 3px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #a79d9c;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: .05em;
+    line-height: 1.6em;
+}

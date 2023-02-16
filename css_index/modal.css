@@ -1,0 +1,161 @@
+#modal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: border-radius 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: border-radius 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, border-radius 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+#modal:hover:before {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+#modal:before {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: " ";
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  -webkit-transition: -webkit-transform 60s linear;
+  transition: -webkit-transform 60s linear;
+  transition: transform 60s linear;
+  transition: transform 60s linear, -webkit-transform 60s linear;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+}
+
+#modal:focus,
+#modal:target {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+#modal>a {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: default;
+}
+
+#modal section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 25px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+form div {
+  position: relative;
+  min-height: 50px;
+  margin-top: 25px;
+}
+
+form div:first-of-type {
+  margin-top: 0;
+}
+
+form div span {
+  position: absolute;
+  z-index: 5;
+  display: block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  background-color: lightblue;
+  font-size: 20px;
+}
+
+form div input[type=email],
+form div input[type=password] {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding-left: 65px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-color: #ddd;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-transition: background-color 0.25s;
+  transition: background-color 0.25s;
+}
+
+form div input[type=email]:hover,
+form div input[type=email]:focus,
+form div input[type=password]:hover,
+form div input[type=password]:focus {
+  outline: none;
+  background-color: #ddd;
+}
+
+form div.controls a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #aaa;
+}
+
+form div.controls a:hover,
+form div.controls a:focus {
+  color: #777;
+}
+
+form div.controls a:active {
+  color: #666;
+}
+
+form div button {
+  margin-left: 50px;
+}
+
+.button {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(143, 177, 240);
+  color: rgb(55, 93, 165);
+  border: none;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  outline: none;
+  background-color: rgb(90, 120, 177);
+}
+
+.button:active {
+  background-color: rgb(29, 77, 94);
+}

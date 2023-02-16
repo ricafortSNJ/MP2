@@ -1,0 +1,40 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card button{
+    --bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;
+   
+}
+.card {
+    box-shadow: 5px 5px gray;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+
+.card img{
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    border: 5px 5px 5px 5px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all .5s ease;
+}
+.card body{
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.btn:hover {
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px
+    #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+}
+
+/* .btn:hover {
+    box-shadow: inset -10.5em 0 0 0 #ff96ad, inset 10.5em 0 0 0 #ff96ad;
+} */
+
