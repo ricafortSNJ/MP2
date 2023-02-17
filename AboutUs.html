@@ -12,17 +12,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css_index/body.css">
-    <!-- <style>
-      #about {
-        background-image: url(../img/about2.jpg);
-        height: 50vh;
-      }
-      /* @media (min-width: 992px) {
-        #about {
-          margin-top: -58.59px;
-        }
-      } */
-    </style> -->
+  <style>
+    .card img{
+      height: 300px;
+    }
+  </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg sticky-top" id="navwithlogo">
@@ -93,7 +87,7 @@
           <div class="row">
             <div class="col-lg-6 pt-lg-5">
               <p>
-              <h6> <strong> Welcome to Dick Hardware</strong></h6>
+              <h6><strong> Welcome to  <span><img src="img_haze/img/dick.png" style="width:20px" alt=""></span>Dick Hardware</strong></h6>
                 Where we strive
                 to be the <strong> one-stop shop for</strong> all your hardware and construction
                 needs. <br> We have been providing <strong>high-quality products</strong>  and excellent
@@ -114,7 +108,7 @@
         <div class="col-lg-12 text-center pt-lg-5 mt-lg-2"><h2>Our History</h2></div>
         <hr>
         <div class="row">
-        <div class="col-lg-6 img-fluid"><img src="img_haze/img/girl_with_radio.jpg" style="width:100%" alt=""></div>
+        <div class="col-lg-6 img-fluid"><img src="img_haze/img/banner5lalakeengineer.jpg" style="width:100%" alt=""></div>
         <div class="col-lg-6 pt-lg-5 mb-lg-5 text-center">
           <p>
            Our
@@ -130,10 +124,88 @@
               you soon.
           </p>
         </div>
-        <div class="col-lg-12 pt-lg-5 mt-lg-5 text-center"><h3>FAQ</h3></div>
+        <div class="col-lg-12 pt-lg-5">
+          <div class="row">
+          <div class="text-center mb-lg-4"><h3>More Reasons to Love Us</h3></div>
+          <div class="col-lg-4 mx-auto">
+            <div class="card mb-3">
+              <img src="img_haze/img/community project.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><span> <button class="submit">Learn more</button></span></h5>
+                <p class="card-text">Dick Hardware Community Project</p>
+                
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mx-auto">
+          <div class="card mb-3 ">
+            <img src="img_haze/img/construction worker.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><span> <button>Learn more</button></span></h5>
+              <p class="card-text">See how these young man change their life</p>
+             
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mx-auto img-fluid">
+        <div class="card mb-3">
+          <img src="img_haze/img/cus1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><span> <button>Learn more</button></span></h5>
+            <p class="card-text">Customer Service 24/7</p>
+           
+          </div>
+      </div>
+    </div>
+  </div>
+        <div class="col-lg-12 pt-lg-5">
+          <h5 class="text-center mb-lg-4">Making your Life Simple</h5>
+          <div class="row">
+            <div class="col-lg-4 text-end">
+              <iframe
+                width="360"
+                height="260"
+                src="https://www.youtube.com/embed/yYLaUlaLCvg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p class="text-center"> <b> DIY Cabinet and tools to help you.</b> </p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <iframe
+                width="360"
+                height="260"
+                src="https://www.youtube.com/embed/7n_hoeRj5-Y"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p class="text-center"> <b>Power Tools na kailangan mo.</b> </p>
+            </div>
+            <div class="col-lg-4 text-start">
+              <iframe
+                width="360"
+                height="260"
+                src="https://www.youtube.com/embed/51JkaRtvMqg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p class="text-center"> <b>Murang Power tools for You!</b> </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 pt-lg-5 text-center"><h3>FAQ</h3></div>
         <hr>
         <div class="col-lg-6 offset-lg-3 text-center mb-lg-auto">
+          
+          
           <div class="accordion accordion-flush" id="accordionFlushExample">
+            
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingOne">
                 <button
@@ -144,7 +216,7 @@
                   aria-expanded="false"
                   aria-controls="flush-collapseOne"
                 >
-                  Q: Does your company supply carbon fiber for retrofitting?
+                  Q:Does your company supply carbon fiber for retrofitting?
                 </button>
               </h2>
               <div
@@ -154,7 +226,7 @@
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                  A: Yes, we have Uni Directional carbon fiber
+                  A:Yes, we have Uni Directional carbon fiber
                   <!-- <code>.accordion-flush</code> -->
                   in two sizes 200 gms/m2 and 600 gms/m2.
                 </div>
@@ -170,7 +242,7 @@
                   aria-expanded="false"
                   aria-controls="flush-collapseTwo"
                 >
-                  Q: Should we use fiberglass for waterproofing?
+                  Q:Should we use fiberglass for waterproofing?
                 </button>
               </h2>
               <div
@@ -180,7 +252,7 @@
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                  A: Yes , and it will last more than the other conventional
+                  A:Yes , and it will last more than the other conventional
                   ways.
                   <!-- <code>.accordion-flush</code> -->
                 </div>
@@ -196,7 +268,7 @@
                   aria-expanded="false"
                   aria-controls="flush-collapseThree"
                 >
-                  Q: Why should i get a professional help from a construction?
+                  Q:Why should i get a professional help from a construction?
                 </button>
               </h2>
               <div
@@ -206,7 +278,7 @@
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                  Construction is a combination of multiple service elements.
+                 A:Construction is a combination of multiple service elements.
                   <br />
                   <!-- <code>.accordion-flush</code> -->
                   it involves careful planning of the usage of hundreds of
@@ -223,9 +295,111 @@
                 </div>
               </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  Q:Can I use a personal check or money order?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  A:Our website currently accepts only credit cards, gift cards, and E-gift codes.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                  Q:Can I get a catalog?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  A:Every product available to purchase through the website is shown on the website.
+                    If you are looking for a printed catalog, many of our local store locations do offer seasonal catalogs. Find a store near you by using our Store Locator.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSix">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSix"
+                >
+                  Q:Why won't my promo code work?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSix"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  A:If you found a promo code online at a site like RetailMeNot.com or DontPayFull.com, odds are it is a fake or long since expired.
+
+                  If your promo code is valid, it may have been a one-time use code, a codes for specific products or departments, or it may have expired.
+                  
+                  For additional help, please call a Customer Service Representative at (833) 800-5906.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSeven">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSeven"
+                >
+                  Q:How do I find out my shipping cost?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSeven"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSeven"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  A:If you have your order shipped to a store, there is no shipping cost.
+
+                  If you plan to have the order sent to you directly, click the "Checkout" button in your shopping cart. You will be given the option of Standard or Expedited shipping, with cost and delivery estimates.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      
     </div>
   </body>
 </html>
